@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.grid-container{
+    height: 100vh;
+    display: grid;
+    background-color: gray;
+    padding: 10px;
+    grid-template-columns: 0.7fr 2fr;
+}
+
+.sidebar{
+    display: flex;
+    position: relative;
+}
+
+.sidebar .navbar{
+    position: fixed;
+    width: 25vw;
+    height: 100vh;
+    background-color: aqua;
+    padding: 30px 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar .navbar ul li {
+    padding: 15px;
+    border-bottom: 1px;
+    border-top: 1px;
+}
+
+.main{
+    background-color: brown;
+}
+
+
+
+
